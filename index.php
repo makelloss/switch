@@ -1,11 +1,11 @@
 <?php
 $mark = rand (0,6);
 switch ($mark) {
-    case 2:echo "Оценка 1";
+    case 1:echo "Оценка 1";
         break;
     case 2:echo "Оценка 2";
         break;
-        case 3:echo "Оценка 3";
+    case 3:echo "Оценка 3";
         break;
     case 4:echo "Оценка 4";
         break;
