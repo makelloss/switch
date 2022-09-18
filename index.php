@@ -11,5 +11,5 @@ switch ($mark) {
         break;
     case 5:echo "Оценка $mark";
         break;
-    default:echo "<span style = \" color: red;\">Такой оценоки нету ($mark) </span>";
+    default:echo "<span style = \" color: red;\">Такой оценки нету ($mark) </span>";
 }
