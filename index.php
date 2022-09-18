@@ -1,15 +1,15 @@
 <?php
 $mark = rand (0,6);
 switch ($mark) {
-    case 1:echo "Оценка 1";
+    case 1:echo "Оценка $mark";
         break;
-    case 2:echo "Оценка 2";
+    case 2:echo "Оценка $mark";
         break;
-    case 3:echo "Оценка 3";
+    case 3:echo "Оценка $mark";
         break;
-    case 4:echo "Оценка 4";
+    case 4:echo "Оценка $mark";
         break;
-    case 5:echo "Оценка 5";
+    case 5:echo "Оценка $mark";
         break;
-    default:echo "<span style = \" color: red;\">Таких оценок нету</span>";
+    default:echo "<span style = \" color: red;\">Такой оценоки нету ($mark) </span>";
 }
